@@ -24,6 +24,7 @@ class FeelLikeTemp
 
     @Override
     public String toString() {
+        //to print Object
         StringBuilder sb= new StringBuilder();
         sb.append("Today is "+day);
         sb.append("\nWind Speed : "+windSpeed+" mph");
