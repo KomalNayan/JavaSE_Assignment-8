@@ -2,13 +2,16 @@ package com.komalnayangalla_c0779428;
 
 import  javax.swing.*;
 import java.util.ArrayList;
-
+/*
+ * @Author : Komal Nayan Galla
+ * @Author Roll No : C0779428
+ */
 class FeelLikeTemp
 {
-    int windSpeed;
-    int temperature;
-    int feelLikeTemp;
-    String day;
+    int windSpeed; //speed of wind in miles per hour
+    int temperature; //temperature in Celsius
+    int feelLikeTemp; //unknown degrees
+    String day; //day of the week
 
     public FeelLikeTemp(int windSpeed, int temperature, String day) {
         this.windSpeed = windSpeed;
